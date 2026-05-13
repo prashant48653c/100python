@@ -30,3 +30,12 @@ dict1 = {"name": "Prashant", "age": 30, "city": "New York"}
 print ( dict1["name"], dict1["age"] )
 set1 = {1, 2, 3, 4, 5,"haha"} # all should be unique and unordered
 print ( set1 )
+
+print(4534 // 50)
+print(4534 / 50)
+
+
+num=input("Enter a number: ")
+print("You entered:", num)
+print("The type of the input is:", type(num))
+print("The type of the input is:", type(int(num)))
