@@ -11,7 +11,7 @@ print("Here\"s a joke for you:")
 tell_joke()
 
 '''
-
+"""
 print("What are you doing", "are you fine", sep="*", end="!!!\n")
 print("What are you doing", "are you fine", sep="*", end="!!!\n")
 
@@ -39,3 +39,12 @@ num=input("Enter a number: ")
 print("You entered:", num)
 print("The type of the input is:", type(num))
 print("The type of the input is:", type(int(num)))
+
+print(''' k xa hau
+lyric po ho
+haina rw ? 
+hahaha ''')
+"""
+naam="Prashant"
+
+print(naam[0:5]) # P
