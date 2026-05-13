@@ -58,3 +58,14 @@ print("endswith('ld'):", text.strip().endswith("ld"))
 # -----------------------
 print("\n--- Length ---")
 print("len:", len(text))
+
+
+age=18
+
+if age >= 18:
+    print("You are an adult.")
+elif age == 18:
+    print("Congratulations on reaching adulthood!")
+else:
+    print("You are a minor.")
+
