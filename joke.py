@@ -14,3 +14,19 @@ tell_joke()
 
 print("What are you doing", "are you fine", sep="*", end="!!!\n")
 print("What are you doing", "are you fine", sep="*", end="!!!\n")
+
+a=323
+b="Prashant"
+c=None
+
+print ( type(a), type(b), type(c) )
+
+list1 = [1, 2, 3, 4, 5,"haha"]
+print ( list1[0], list1[4] )
+tuple1 = (1, 2, 3, 4, 5,"haha")
+# tuple1[0] = 10 # This will raise an error because tuples are immutable  
+print ( tuple1[0], tuple1[4] )
+dict1 = {"name": "Prashant", "age": 30, "city": "New York"}
+print ( dict1["name"], dict1["age"] )
+set1 = {1, 2, 3, 4, 5,"haha"} # all should be unique and unordered
+print ( set1 )
